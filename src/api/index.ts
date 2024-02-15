@@ -440,7 +440,7 @@ export class SnykApiClient implements SnykApi {
       const version = this.getSnykApiVersion();
       const targetsAPIUrl = `${backendBaseUrl}/rest/orgs/${orgId}/targets?displayName=${encodeURIComponent(
         targetIdentifier
-      )}&version=${version}`;
+      )}&version=${version}~beta`;
       const targetResponse = await fetch(`${targetsAPIUrl}`, {
         method: "GET",
         headers: v3Headers,

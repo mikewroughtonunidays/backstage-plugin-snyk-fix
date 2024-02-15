@@ -1,3 +1,7 @@
+# NOTE NOTE NOTE
+
+Fork of https://github.com/snyk-tech-services/backstage-plugin-snyk/ to fix issue with the version of the Snyk API used for targets name lookups
+
 # Snyk Backstage Plugin
 
 [![Inactively Maintained](https://img.shields.io/badge/Maintenance%20Level-Inactively%20Maintained-yellowgreen.svg)](https://gist.github.com/cheerfulstoic/d107229326a01ff0f333a1d3476e068d)
